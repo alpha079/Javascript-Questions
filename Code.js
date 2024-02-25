@@ -23,3 +23,13 @@ var x=2;
 }
 
 console.log(x);
+
+//Code to check if the property exist in object or not
+
+const user={
+  name: "Shivam",
+  Age: "28",
+  DOB: "23-11-1995"
+}
+
+console.log('name' in user);
